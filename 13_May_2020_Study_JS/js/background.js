@@ -3,7 +3,7 @@ const body = document.querySelector("body"),
 
 const API_KEY = "fs5VGz0Zfkh9xwGvew1EpM8XNoSS6hrrUV1h2eU57H8";
 //query로 coing관련된 사진 호출
-const IMAGEURL = `https://api.unsplash.com/photos/random/?client_id=${API_KEY}&orientation=landscape&query=coding`;
+const IMAGEURL = `https://api.unsplash.com/photos/random/?client_id=${API_KEY}&orientation=landscape&query=landscape`;
 
 function saveBackGround(url, city, country, name){
     
