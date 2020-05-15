@@ -1,5 +1,5 @@
 //전역변수로 선언
-const nameContainer = document.querySelector(".myName");
+const nameContainer = document.querySelector(".js-name");
 
 function drawName(name){
     nameContainer.innerHTML = "";

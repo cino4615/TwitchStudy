@@ -1,5 +1,5 @@
 const body = document.querySelector("body"),
-    locationText = document.querySelector(".loaction_text");
+    locationText = document.querySelector(".js-location span");
 
 const API_KEY = "fs5VGz0Zfkh9xwGvew1EpM8XNoSS6hrrUV1h2eU57H8";
 //query로 coing관련된 사진 호출

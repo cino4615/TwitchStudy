@@ -1,6 +1,5 @@
 
-const clockContainer = document.querySelector(".clock"),
-    clockText = clockContainer.querySelector(".clock_text");
+const clockContainer = document.querySelector(".js-clock .clock__text");
 
 function getTime(){
     const time = new Date();
@@ -13,7 +12,7 @@ function getTime(){
     ${minutes < 10 ? `0${minutes}` : minutes}:
     ${seconds < 10 ? `0${seconds}` : seconds}`;
 
-    clockText.innerHTML = now;
+    clockContainer.innerText = now;
 }
 
 function init(){
