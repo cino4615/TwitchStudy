@@ -1,0 +1,14 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.pop {
+    border:1px solid black;
+    display: none;
+    height: 40%;
+    width: 40%;
+}
